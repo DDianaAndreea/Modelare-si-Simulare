@@ -44,15 +44,5 @@ public class CoffeeMachine extends StateMachine {
      
         
     }
-            
-    
-    @Override
-    public void transition(String action) {
-       
-        if(tabela_tranzitie.get(stare_curenta) != null && tabela_tranzitie.get(stare_curenta).get(action) != null)
-            stare_curenta = tabela_tranzitie.get(stare_curenta).get(action);
-        System.out.println("Starea curenta:" +stare_curenta);
-        
-    }
     
 }
