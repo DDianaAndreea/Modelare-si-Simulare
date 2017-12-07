@@ -11,7 +11,7 @@ package statemachine;
  */
 import java.util.HashMap;
 
-public abstract class StateMachine {
+public  class StateMachine {
     String stare_curenta;
     HashMap<String,HashMap<String, String>> tabela_tranzitie;
    
